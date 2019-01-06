@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <title>Socket Chat</title>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="theme-color" content="#00ff99">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="register">
+    <div class="welcome">
+        <p class="title">Socket Chat</p>
+        <p class="sub-title">Prosty czat w JavaScript z wykorzystaniem socket.io, node.js, jQuerry oraz dodatków npm   </p>
+    </div>
+
+
+    <div class="register-border">
+        <div class="container">
+
+            <form>
+
+                <div class="group">
+                    <input type="text" id="login" required>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label>Login</label>
+                </div>
+
+                <div class="group">
+                    <input type="password" id="password" required>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label>Hasło</label>
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+</div>
+<div class="chat">
+
+    <div class="main">
+        <div class="message-list">
+        </div>
+    </div>
+    <div class="input">
+        <div class="input-windows">
+            <input id="input" autocomplete="off" placeholder="Napisz wiadomość...">
+        </div>
+    </div>
+</div>
+
+
+
+<script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.slim.js"></script>
+<script src="main.js"></script>
+
+</body>
+
+</html>

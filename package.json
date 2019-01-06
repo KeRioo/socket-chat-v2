@@ -1,0 +1,9 @@
+{
+  "name": "untitled4",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "latest",
+    "http": "0.0.0",
+    "socket.io": "^2.2.0"
+  }
+}
