@@ -86,7 +86,7 @@ io.on('connection', function(socket){
     });
 
     socket.on('disconnect', function () {
-        gc();
+       
         if (socket.username !== undefined) {
             usersList(socket.username, socket.id, false, socket.request.connection.remoteAddress.split(':')[3]);
         }
